@@ -1,6 +1,7 @@
 // expose.js
 
 window.addEventListener('DOMContentLoaded', init);
+let jsConfetti = new JSConfetti();
 
 function init() {
   //Changes main image on selection
@@ -39,7 +40,7 @@ function init() {
   play.addEventListener('click', 
   () => {
     audio.play();
-    let jsConfetti = new JSConfetti();
+    
     if (selected.item(0).value == 'party-horn') {
       jsConfetti.addConfetti();
     }
