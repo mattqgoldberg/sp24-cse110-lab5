@@ -1,7 +1,7 @@
 # Matthew Goldberg
 
-[Expose](https://mattqgoldberg.github.io/sp24-cse110-lab5/expose)
-[Expose](https://mattqgoldberg.github.io/sp24-cse110-lab5/explore)
+[Expose](https://mattqgoldberg.github.io/sp24-cse110-lab5/expose.html)
+[Explore](https://mattqgoldberg.github.io/sp24-cse110-lab5/explore.html)
 
 1. Using a unit test to test a send message feature would be difficult. It would require you to have 2 instances of the client running in order to test both sending and receiving functionality. It is difficult to test how this send message function would interact with the server and the other client so a unit test is likely not good. You could test if the function is sending the correct format of message but not how it interacts with the other parts.
 
